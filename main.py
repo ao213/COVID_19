@@ -32,7 +32,7 @@ def game1(x): #数当て用関数　エラーは値が入ってないエラー�
 ##クラス定義領域##
 ##スクレイピング用変数##
 option = Options()
-options.binary_location = '/app/.apt/usr/bin/google-chrome'
+option.binary_location = '/app/.apt/usr/bin/google-chrome'
 option.add_argument('--headless')
 browser = webdriver.Chrome(options=option)
 def covid_19_deta_get():
